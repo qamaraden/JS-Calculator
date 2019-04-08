@@ -60,8 +60,8 @@ else if(calculator_choice == 4){
   var number3 =parseInt(prompt("Enter your cost per gallon in £'s"));
   var number4 =parseInt(prompt("Enter your speed in mph"));
   if(number4 > 60){
-    number2 - 2
+    number2 --- 2;
   }
-  alert("Your trip will take " +(number1*number4)+" hours and it will cost £" +((number2/number4)*number3));
+  alert("Your trip will take " +(number1/number4)+" hours and it will cost £" +((number1/number2)*number3));
 
 }
